@@ -3,11 +3,10 @@
 const int POT_PIN = 5;
 const int NEOPIXEL_PIN = 5;
 const int NUM_LEDS = 8;
-
-Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUM_LEDS, NEOPIXEL_PIN, NEO_GRB + NEO_KHZ800);
-
 const float MAX_POT_VALUE = 1023.0;
 int pot_value = 0;
+
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUM_LEDS, NEOPIXEL_PIN, NEO_GRB + NEO_KHZ800);
 
 void setup() {
   strip.begin();
@@ -17,6 +16,7 @@ void setup() {
 
 void loop() {
   pot_value = analogRead(POT_PIN);
+
   strip.clear();
   if (pot_value < MAX_POT_VALUE / 8) {
     strip.setPixelColor(0, 0, 101, 189);
@@ -35,5 +35,6 @@ void loop() {
   } else {
     strip.setPixelColor(7, 0, 101, 189);
   }
+
   strip.show();
 }
