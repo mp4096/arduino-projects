@@ -9,9 +9,9 @@
 ## :hatching_chick: First steps
 
 * [Toggling LED on key press](first-steps/toggle-led)
-* Switching LED on and off, key debouncing
-* Cycling through different LED blinking modes
-* Sending analog voltage via serial port
+* [Switching LED on and off, key debouncing](first-steps/switch-led)
+* [Cycling through different LED blinking modes]()
+* [Sending analog voltage via serial port](first-steps/send-voltage-via-serial)
 * :thought_balloon: ...
 
 ## :traffic_light: NeoPixels
@@ -19,12 +19,12 @@
 :bulb: You can refer to the NeoPixels guide
 [here](https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-use)
 
-* Cycle through neopixels
-* Cycle through neopixel modes
-* Change color on keypress
-* Change brightness with the potentiometer
-* Change number of glowing pixels with the potentiometer
-* Change color with the potentiometer
+* [Cycle through neopixels](neopixels/cycle)
+* [Cycle through neopixel modes](neopixels/cycle-modes)
+* [Change color on keypress](neopixels/change-color)
+* [Change brightness with the potentiometer](neopixels/change-brightness)
+* [Change number of glowing pixels with the potentiometer](neopixels/fill)
+* [Change color with the potentiometer](neopixels/change-color-pot)
 * :thought_balloon: ...
 
 ## :mortar_board: Advanced topics
