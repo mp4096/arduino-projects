@@ -22,10 +22,10 @@
 [here](https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-use)
 
 * [Cycle through neopixels with the potentiometer](neopixels/cycle)
+* [Change number of glowing pixels with the potentiometer](neopixels/fill)
 * [Cycle through neopixel modes](neopixels/cycle-modes)
 * [Change color on keypress](neopixels/change-color)
 * [Change brightness with the potentiometer](neopixels/change-brightness)
-* [Change number of glowing pixels with the potentiometer](neopixels/fill)
 * [Change color with the potentiometer](neopixels/change-color-pot)
 * :thought_balloon: ...
 
