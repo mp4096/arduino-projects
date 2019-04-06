@@ -21,7 +21,7 @@
 :bulb: You can refer to the NeoPixels guide
 [here](https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-use)
 
-* [Cycle through neopixels](neopixels/cycle)
+* [Cycle through neopixels with the potentiometer](neopixels/cycle)
 * [Cycle through neopixel modes](neopixels/cycle-modes)
 * [Change color on keypress](neopixels/change-color)
 * [Change brightness with the potentiometer](neopixels/change-brightness)
