@@ -15,10 +15,10 @@ void setup() {
 }
 
 void loop() {
-  pot_value = analogRead(POT_PIN);
-
   strip.clear();
-    for (int i = 0; i < NUM_LEDS; i++) {
+
+  pot_value = analogRead(POT_PIN);
+  for (int i = 0; i < NUM_LEDS; i++) {
     strip.setPixelColor(i, strip.ColorHSV(pot_value * 64));
   }
 
