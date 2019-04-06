@@ -13,7 +13,8 @@
 * [Switching LED on and off, key debouncing](first-steps/switch-led)
 * [Cycling through different LED blinking modes](first-steps/cycle-led)
 * [Sending analog voltage via serial port](first-steps/send-voltage-via-serial)
-* :thought_balloon: ...
+* [Changing blinking speed with the potentiometer](first-steps/blinking-speed)
+* :thought_balloon: Some further ideas: Control LED (on/off, mode) via serial port.
 
 ## :traffic_light: NeoPixels
 
