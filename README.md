@@ -8,7 +8,7 @@
 
 ## :hatching_chick: First steps
 
-* Toggling LED on key press
+* [Toggling LED on key press](first-steps/toggle-led)
 * Switching LED on and off, key debouncing
 * Cycling through different LED blinking modes
 * Sending analog voltage via serial port
@@ -23,6 +23,7 @@
 * Cycle through neopixel modes
 * Change color on keypress
 * Change brightness with the potentiometer
+* Change number of glowing pixels with the potentiometer
 * Change color with the potentiometer
 * :thought_balloon: ...
 
