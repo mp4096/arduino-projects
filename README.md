@@ -8,6 +8,7 @@
 
 ## :hatching_chick: First steps
 
+* [Blinking LED](first-steps/blinking-led)
 * [Toggling LED on key press](first-steps/toggle-led)
 * [Switching LED on and off, key debouncing](first-steps/switch-led)
 * [Cycling through different LED blinking modes]()
