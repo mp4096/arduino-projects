@@ -1,5 +1,6 @@
 const int POT_PIN = 5;
-const float VCC_MAX = 5.0;
+const float MAX_VCC = 5.0;
+const float MAX_POT_VALUE = 1023.0;
 float voltage = 0.0;
 
 void setup() {
@@ -7,6 +8,6 @@ void setup() {
 }
 
 void loop() {
-  voltage = VCC_MAX * (analogRead(POT_PIN) / 1024.0);
+  voltage = MAX_VCC * (analogRead(POT_PIN) / MAX_POT_VALUE);
   Serial.println(voltage);
 }
