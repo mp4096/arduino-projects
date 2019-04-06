@@ -11,7 +11,7 @@
 * [Blinking LED](first-steps/blinking-led)
 * [Toggling LED on key press](first-steps/toggle-led)
 * [Switching LED on and off, key debouncing](first-steps/switch-led)
-* [Cycling through different LED blinking modes]()
+* [Cycling through different LED blinking modes](first-steps/cycle-led)
 * [Sending analog voltage via serial port](first-steps/send-voltage-via-serial)
 * :thought_balloon: ...
 
