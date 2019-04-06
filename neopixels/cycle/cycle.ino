@@ -18,19 +18,19 @@ void setup() {
 void loop() {
   pot_value = analogRead(POT_PIN);
   strip.clear();
-  if (pot_value < MAX_POT_VALUE/8) {
+  if (pot_value < MAX_POT_VALUE / 8) {
     strip.setPixelColor(0, 0, 101, 189);
-  } else if (pot_value < 2 * MAX_POT_VALUE/8) {
+  } else if (pot_value < 2 * MAX_POT_VALUE / 8) {
     strip.setPixelColor(1, 0, 101, 189);
-  } else if (pot_value < 3 * MAX_POT_VALUE/8) {
+  } else if (pot_value < 3 * MAX_POT_VALUE / 8) {
     strip.setPixelColor(2, 0, 101, 189);
-  } else if (pot_value < 4 * MAX_POT_VALUE/8) {
+  } else if (pot_value < 4 * MAX_POT_VALUE / 8) {
     strip.setPixelColor(3, 0, 101, 189);
-  } else if (pot_value < 5 * MAX_POT_VALUE/8) {
+  } else if (pot_value < 5 * MAX_POT_VALUE / 8) {
     strip.setPixelColor(4, 0, 101, 189);
-  } else if (pot_value < 6 * MAX_POT_VALUE/8) {
+  } else if (pot_value < 6 * MAX_POT_VALUE / 8) {
     strip.setPixelColor(5, 0, 101, 189);
-  } else if (pot_value < 7 * MAX_POT_VALUE/8) {
+  } else if (pot_value < 7 * MAX_POT_VALUE / 8) {
     strip.setPixelColor(6, 0, 101, 189);
   } else {
     strip.setPixelColor(7, 0, 101, 189);
