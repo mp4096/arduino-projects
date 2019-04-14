@@ -6,6 +6,13 @@
 * Install the NeoPixel library as described
   [here](https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-installation#install-adafruit-neopixel-via-library-manager-16-2)
 
+## :pushpin: Pinout and available hardware
+
+* Pin `D12` (digital output): green LED. Set the pin to `HIGH` to turn the LED on.
+* Pin `D3` (digital input): push button. `LOW` if the button is pressed.
+* Pin `A5` (analog input): potentiometer (pot). Input voltage is between 0 V and 5 V.
+* Pin `D5` (digital output): signal line to the NeoPixel strip.
+
 ## :hatching_chick: First steps
 
 * [Blinking LED](first-steps/blinking-led)
